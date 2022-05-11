@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <menu class="menu">
+                    <a href="#" class="menu__logo">Velocity</a>
+                    <ul class="menu__list">
+                        <li><a href="/" class="menu__item">Home</a></li>
+                        <li><a href="/" class="menu__item">Contact</a></li>
+                    </ul>
+                    <div class="menu__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="adaptive"></div>
+                </menu>
+            </div>
+        </header>
+
+        <div class="banner">
+            <div class="container">
+                <h1 class="banner__title">This is Velocity</h1>
+                <div class="banner__buttons">
+                    <button class="banner__buttons-login">sign up</button>
+                    <button class="banner__buttons-learn">Login</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="register">
+            <form class="register__form">
+                <button type="button" class="register__close">&#10008;</button>
+                <h1 class="register__title">Регистрация</h1>
+                <input type="text" placeholder="name" required />
+                <input type="text" placeholder="surname" required />
+                <input type="text" placeholder="username" required />
+                <input type="password" placeholder="password" required />
+                <button class="register__button" type="submit">
+                    registration
+                </button>
+            </form>
+            <div class="register__overlay"></div>
+        </div>
+
+        <div class="login">
+            <form class="login__form">
+                <button type="button" class="login__close">&#10008;</button>
+                <h1 class="login__title">Login</h1>
+                <input type="text" placeholder="username" required />
+                <input type="password" placeholder="password" required />
+                <button class="login__button" type="submit">Log In</button>
+            </form>
+            <div class="login__overlay"></div>
+        </div>
+
+        <div class="benefits">
+            <div class="container">
+                <div class="benefits__title title">what we do</div>
+                <div class="benefits__subtitle subtitle">
+                    This is some text inside of a div block.
+                </div>
+                <div class="benefits__box">
+                    <div class="benefits__item">
+                        <img
+                            src="images/item1.jpg"
+                            alt="image"
+                            class="benefits__item-image"
+                        />
+                        <div class="benefits__item-title">Graphic Design</div>
+                        <div class="benefits__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse varius enim in eros elementum
+                            tristique.
+                        </div>
+                    </div>
+                    <div class="benefits__item">
+                        <img
+                            src="images/item2.png"
+                            alt="image"
+                            class="benefits__item-image"
+                        />
+                        <div class="benefits__item-title">Awesome code</div>
+                        <div class="benefits__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse varius enim in eros elementum
+                            tristique.
+                        </div>
+                    </div>
+                    <div class="benefits__item">
+                        <img
+                            src="images/item3.png"
+                            alt="image"
+                            class="benefits__item-image"
+                        />
+                        <div class="benefits__item-title">free template</div>
+                        <div class="benefits__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse varius enim in eros elementum
+                            tristique.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services">
+            <div class="container">
+                <div class="services__title title">services</div>
+                <div class="services__subtitle subtitle">
+                    This is some text inside of a div block.
+                </div>
+                <div class="services__box">
+                    <div class="services__item">
+                        <img
+                            src="images/services1.jpg"
+                            alt="image"
+                            class="services__item-image"
+                        />
+                        <div class="services__item-title">SERVICES one</div>
+                        <div class="services__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse varius enim in eros elementum
+                            tristique.Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Suspendisse varius.
+                        </div>
+                        <a href="/serv-one.html" class="services__item-button"
+                            >Learn more</a
+                        >
+                    </div>
+                    <div class="services__item">
+                        <img
+                            src="images/services2.jpg"
+                            alt="image"
+                            class="services__item-image"
+                        />
+                        <div class="services__item-title">SERVICES two</div>
+                        <div class="services__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse varius enim in eros elementum
+                            tristique.Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Suspendisse varius.
+                        </div>
+                        <a href="/serv-two.html" class="services__item-button"
+                            >Learn more</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            <div class="container">
+                <div class="tab__title title">Tab Section</div>
+                <div class="tab__subtitle subtitle">
+                    This is some text inside of a div block.
+                </div>
+                <div class="tab__buttons">
+                    <button class="tab__button1">Tab Button 1</button>
+                    <button class="tab__button2">Tab Button 2</button>
+                    <button class="tab__button3">Tab Button 3</button>
+                </div>
+                <div class="tab__item1">
+                    <img
+                        src="images/tab1.jpg"
+                        alt="image"
+                        class="tab__item-image"
+                    />
+                    <div class="tab__item-title">Some Title Here1</div>
+                    <div class="tab__item-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse varius enim in eros elementum
+                            tristique.
+                        </p>
+                        <p>
+                            Duis cursus, mi quis viverra ornare, eros dolor
+                            interdum nulla, ut commodo diam libero vitae erat.
+                        </p>
+                        <p>
+                            Aenean faucibus nibh et justo cursus id rutrum lorem
+                            imperdiet. Nunc ut sem vitae risus tristique
+                            posuere.
+                        </p>
+                    </div>
+                </div>
+                <div class="tab__item2">
+                    <img
+                        src="images/tab2.jpg"
+                        alt="image"
+                        class="tab__item-image"
+                    />
+                    <div class="tab__item-title">Some Title Here2</div>
+                    <div class="tab__item-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse varius enim in eros elementum
+                            tristique.
+                        </p>
+                        <p>
+                            Duis cursus, mi quis viverra ornare, eros dolor
+                            interdum nulla, ut commodo diam libero vitae erat.
+                        </p>
+                        <p>
+                            Aenean faucibus nibh et justo cursus id rutrum lorem
+                            imperdiet. Nunc ut sem vitae risus tristique
+                            posuere.
+                        </p>
+                    </div>
+                </div>
+                <div class="tab__item3">
+                    <img
+                        src="images/tab3.jpeg"
+                        alt="image"
+                        class="tab__item-image"
+                    />
+                    <div class="tab__item-title">Some Title Here3</div>
+                    <div class="tab__item-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse varius enim in eros elementum
+                            tristique.
+                        </p>
+                        <p>
+                            Duis cursus, mi quis viverra ornare, eros dolor
+                            interdum nulla, ut commodo diam libero vitae erat.
+                        </p>
+                        <p>
+                            Aenean faucibus nibh et justo cursus id rutrum lorem
+                            imperdiet. Nunc ut sem vitae risus tristique
+                            posuere.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="container">
+                <div class="info__inner">
+                    <div class="info__about">
+                        <h3 class="info__title">about velocity</h3>
+                        <div class="info__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse varius enim in eros elementum
+                            tristique. Duis cursus, mi quis viverra ornare, eros
+                            dolor interdum nulla, ut commodo diam libero vitae
+                            erat.
+                        </div>
+                    </div>
+                    <div class="info__links">
+                        <h3 class="info__links-title">useful links</h3>
+                        <ul class="info__links-list">
+                            <li>
+                                <a href="#">Phasellus gravida semper nisi</a>
+                            </li>
+                            <li><a href="#">Suspendisse nisl elit</a></li>
+                            <li><a href="#">Dellentesque habitant morbi</a></li>
+                            <li><a href="#">Etiam sollicitudin ipsum</a></li>
+                        </ul>
+                    </div>
+                    <div class="info__social">
+                        <h3 class="info__social-title">social</h3>
+                        <ul class="info__social-list">
+                            <li><a class="twitter" href="#">Twitter</a></li>
+                            <li><a class="facebook" href="#">Facebook</a></li>
+                            <li><a class="pinterest" href="#">Pinterest</a></li>
+                            <li><a class="google" href="#">Google</a></li>
+                            <li><a class="webflow" href="#">Webflow</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                Copyright Velocity Inc. Made in Webflow.
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
